@@ -27,9 +27,10 @@ st.title("проверяю разные штуки поэтому АЛЯЛАЛЯ
 number = st.text_input('Ляляля попробуй вбить цифры например 1 2 3 4 5 6')
 if len(number.split()) > 5:
     st.write("Хаха как много цифр")
-    st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBAf-0MF3Kz2SMbmDxCzYiVQvRaadyBqL5Hw&s", caption="Ты молодец! Вот тебе котик")
 elif len(number.split()) <= 5 and len(number.split()) != 0:
     st.write("Ну что так мало цифр????")
+
+st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBAf-0MF3Kz2SMbmDxCzYiVQvRaadyBqL5Hw&s", caption="Ты молодец! Вот тебе котик")
 
 st.write('А это просто прикольный график ляляля')
 chart_data = pd.DataFrame(
